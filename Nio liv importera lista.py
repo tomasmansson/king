@@ -4,7 +4,7 @@
 import random
 import mysql.connector as mariadb
 
-mariadb_connection = mariadb.connect(user='root', password='Pa55w.rd', database='nioliv_toma')
+mariadb_connection = mariadb.connect(user='', password='', database='')
 cursor = mariadb_connection.cursor()
 
 cursor.execute('SELECT ord FROM hemligaord');
